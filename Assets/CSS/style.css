@@ -45,7 +45,6 @@ main {
 
 #about-me {
   margin: 0 0 60px 0;
-  background-image:
 }
 
 #about-me > h3 {
@@ -114,11 +113,8 @@ main {
   display: inline-block;
 }
 
-
 #goals > div {
   display: inline-block;
-  float: right;
-  margin-left: 40px;
 }
 
 #goals > h3 {
@@ -129,15 +125,17 @@ main {
 #goals > div > img {
   width: 300px;
   display: inline-block;
-  margin: 10px 20px 0 200px;
+  margin: 10px 20px 5px 250px;
+  padding: 0 0 50px 0;
 }
 
 #paragraph {
-  width: 250px;
+  width: 200px;
   font-family: lato;
   font-weight: 250;
   font-size: 12px;
-  display: inline-block;
+  float: right;
+  margin: 20px 0 0 10px;
 }
 
 section > h3 {
