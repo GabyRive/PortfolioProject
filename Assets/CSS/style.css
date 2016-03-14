@@ -4,8 +4,9 @@ body {
 }
 
 header {
-      background-color:#ec5c3c;
-      padding: 67px 0;
+      background-color: #ec5c3c;
+      margin: none;
+      padding: 0 0 20px 0;
 }
 
 header > h1 {
@@ -39,7 +40,7 @@ header > ul > li > a {
 }
 
 main {
-  padding: 60px 80px 140px 80px;
+  padding: 20px 80px 140px 100px;
 }
 
 #about-me {
@@ -98,6 +99,7 @@ main {
   font-family: lato;
   font-weight: 500;
   font-size: 14px;
+  padding: 20px 0 0 40px;
 }
 
 #projects > div > div > img {
@@ -112,16 +114,30 @@ main {
   display: inline-block;
 }
 
+
+#goals > div {
+  display: inline-block;
+  float: right;
+  margin-left: 40px;
+}
+
 #goals > h3 {
   font-weight: 200;
+  margin-top: 5px;
 }
 
-#paragraph1 {
-  float: right;
+#goals > div > img {
+  width: 300px;
+  display: inline-block;
+  margin: 10px 20px 0 200px;
 }
 
-#paragraph2 {
-  float: right;
+#paragraph {
+  width: 250px;
+  font-family: lato;
+  font-weight: 250;
+  font-size: 12px;
+  display: inline-block;
 }
 
 section > h3 {
@@ -150,6 +166,7 @@ section > h4 {
   width: 300px;
   margin: 0 10px;
   font-family: lato;
+  margin-left: 40px;
 }
 
 #education > h3 {
@@ -198,6 +215,7 @@ section > h4 {
 #work > div > div {
   width: 250px;
   display: inline-block;
+  padding: 20px 0 0 10px;
 }
 
 #work >div > div > img {
