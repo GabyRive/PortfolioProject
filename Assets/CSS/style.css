@@ -9,7 +9,7 @@ header {
       padding: 0 0 20px 0;
 }
 
-header > h1 {
+header h1 {
   margin: 0 0 40px 0;
   text-align: center;
   color: #ffffff;
@@ -18,20 +18,20 @@ header > h1 {
   font-size: 36px;
 }
 
-header > ul {
+header ul {
    list-style: none;
    margin: 0;
    padding: 0;
    text-align: center;
  }
 
- header > ul > li {
+ header ul > li {
    display: inline;
    margin: 0 5px;
    color: #ffffff;
 }
 
-header > ul > li > a {
+header ul > li > a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 100;
@@ -40,38 +40,39 @@ header > ul > li > a {
 }
 
 main {
-  padding: 20px 80px 140px 100px;
+  padding: 20px 0px 140px 0;
 }
-
+/*
 #about-me {
   margin: 0 0 60px 0;
+}*/
+
+#about-me h1 {
+  font-family: lato;
+  font-weight: 250;
 }
 
 #about-me > h3 {
   margin: 0 0 40px 0;
 }
-
+/*
 #about-me > div {
   display: inline-block;
   width: 30%;
+}*/
+
+#about-image {
+    width: 60%;
 }
 
-#about-me > div > img {
-  margin-left: 70%;
-  width: 90%;
-}
-
- .description {
-  float: right;
-  width: 40px;
+#about-me p {
+  width: 25%;
   font-family: lato;
   font-weight: 250;
   font-size: 12px;
-  margin: 8% 20% 0 0;
 }
 
 #projects {
-  margin: 20px 0;
   border-bottom: groove;
   border-top: groove;
   border-width: thin;
@@ -80,7 +81,7 @@ main {
 
 }
 
-#projects > h3 {
+#projects h3 {
   margin: 0 0 40px 0;
   font-family: lato;
   font-weight: 300;
@@ -88,54 +89,40 @@ main {
   padding-top: 10px;
 }
 
-#projects > div {
-  margin: 0 15px;
-}
-
-#projects > div > div {
-  text-align: center;
-  display: inline-block;
+#project-image p {
+  width: 10%;
   font-family: lato;
   font-weight: 500;
   font-size: 14px;
-  padding: 20px 0 0 40px;
 }
 
-#projects > div > div > img {
-  margin: 0 0 40px 0;
-  width: 300px;
-  float: right;
+#project-image {
+  width: 60%;
 }
 
 #goals {
   font-family: lato;
   margin: none;
-  display: inline-block;
+  width: 100%;
+  display: block;
 }
 
-#goals > div {
-  display: inline-block;
-}
 
-#goals > h3 {
+#goals h3 {
   font-weight: 200;
   margin-top: 5px;
 }
 
-#goals > div > img {
-  width: 300px;
-  display: inline-block;
-  margin: 10px 20px 5px 250px;
-  padding: 0 0 50px 0;
-}
-
-#paragraph {
-  width: 200px;
+#goals p {
   font-family: lato;
   font-weight: 250;
   font-size: 12px;
-  float: right;
-  margin: 20px 0 0 10px;
+  width: 25%;
+}
+
+#goals img {
+  display: inline-block;
+  width: 300px;
 }
 
 section > h3 {
@@ -153,89 +140,47 @@ section > h4 {
   font-family: lato;
 }
 
-#education > div {
-  display: inline-block;
-  margin: 0 10px 0 10px;
-}
-
-#education > div > div {
-  text-align: center;
-  display: inline-block;
-  width: 300px;
-  margin: 0 10px;
-  font-family: lato;
-  margin-left: 40px;
-}
-
-#education > h3 {
-    font-weight: 300;
-}
-
-#edcuation > div > div > h5 {
-  text-align: left;
-  font-weight: 200;
-}
-
-#education > div > div > ul {
+#education ul {
   font-size: 12px;
   list-style: none;
+  font-family: lato;
+  text-align: center;
   padding: 0 0 0 0;
 }
 
-#education > div > div > img {
+#education-image {
   width: 50px;
 }
 
-#codetrotters {
-  float:right;
+
+#education h3 {
+  font-weight: 300;
 }
 
-#advance-studies {
-  float: right;
+#education h4 {
+  font-weight: 200;
 }
 
-#uprh {
-  float: right;
+#edcuation h5 {
+  font-weight: 200;
 }
 
-#work > h3 {
+#work h3 {
   font-weight: 300;
   font-family: lato;
 }
 
-#work > div {
-  text-align: center;
-  display: inline-block;
+#work div {
   font-family: lato;
-  margin: 0 10px 0 10px ;
 }
 
-#work > div > div {
-  width: 250px;
-  display: inline-block;
-  padding: 20px 0 0 10px;
-}
-
-#work >div > div > img {
-  margin: 0 10px 0 0;
+#work img {
   width: 50px;
 }
 
-#youthspeak {
-  float: right;
-}
-
-#chamber-commerce {
-  float: right;
-}
-
-#ccepr {
-  float: right;
-}
-
-#work > div > div > ul {
-  list-style: none;
+#work ul {
   font-size: 12px;
+  list-style: none;
   padding: 0 0 0 0;
 }
 
