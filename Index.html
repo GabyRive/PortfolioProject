@@ -9,92 +9,96 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<section>
   <header>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>Gaby Rive</h1>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button id="dropdown-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <p id="brand-paragraph">
+              GabyRive
+            </p>
+          </a>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Work Experience</a></li>
-            <li><a href="#">Interests</a></li>
+        <div class="collapse navbar-collapse" id="example">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" class="clickclass" id="clickme2" style="padding-top: 20px;">About Me</a></li>
+            <li><a href="#" class="clickclass" id="clickme" style="padding-top: 20px;">Projects</a></li>
+            <li><a href="#" class="clickclass" id="clickme3" style="padding-top: 20px;">Work Experience</a></li>
+            <li><a href="#" class="clickclass" id="clickme4" style="padding-top: 20px;">Interests</a></li>
           </ul>
         </div>
       </div>
+    </div>
+  </header>
+</section>
+
+<body>
+  <header>
+
+    <div id="transparency-bg" class="container">
+
+      <div class="row">
+        <div id="maincontainer" class="col-xs-12">
+          <h1>Gaby Rive</h1>
+          <p id="sj-quote">"You can not connect the dots looking forward, you can only connect them looking backwards." - Steve Jobs
+          </p>
+        </div>
+      </div>
+
+    </div>
     </div>
 
 
   </header>
   <main>
     <section id="about-me">
-      <div class="container">
+      <div id="second-container" class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
             <h1>About me</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-md-offset-2">
-            <img class="img-responsive pull-right" id="about-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/Yo-Black-White.jpg" alt="" />
-          </div>
-          <p class="col-md-6">I am a social entreprenuer, internationalist and programmer who desires to inspire people to become the best of themselves. I took the challenge of create my own business and today I am working to achieve that goal. I love art, global aspects,
-            business and public affairs. I am passionate, driven, determined and curiouse.
+          <p id="paragraph-aboutme" class="col-md-6 col-md-offset-1">"I am a social entreprenuer, internationalist and programmer who desires to inspire people to become the best of themselves. I took the challenge of create my own business and today I am working to achieve that goal. I love art, global aspects,
+            business and public affairs. I am passionate, driven, determined and curiouse."
           </p>
         </div>
       </div>
     </section>
 
-    <section id="projects">
-      <div class="container">
+    <!-- <section id="projects">
+      <div id="third-container" class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h3>Who I am?</h3>
+            <h3>Projects</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 col-xs-12">
             <img class="img-responsive center-block" id="project-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/gif/flowers.gif" alt="will Display Flower gif" />
-            <p class="text-center"> This...
+            <p class="text-center"> Project 1
             </p>
           </div>
           <div class="col-md-4 col-xs-12">
             <img class="img-responsive center-block" id="project-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/gif/coffee.gif" alt=" will Display Coffee gif" />
-            <p class="text-center"> ...is...
+            <p class="text-center"> Project 2
             </p>
           </div>
           <div class="col-md-4 col-xs-12">
             <img class="img-responsive center-block" id="project-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/gif/darth.gif" alt="will Displat Darth Vader gif" />
-            <p class="text-center"> who I am.
+            <p class="text-center"> Project 3
             </p>
           </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="goals">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h3>Goals</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-xs-12">
-            <img class="img-responsive pull-right" id="goals-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/gif/goals.gif" alt="Display Dreams gif" />
-          </div>
-          <p class="col-md-6 col-xs-12">I aspire to have my own business in technology and health. In addition to that, I want to start studying in Law School, International Law and Affairs. On the other hand I would like to work inspiring people to chase whatever it is they want
-            to create in life and, by this, make a social impact, not only to my country, but other countries as well.
-          </p>
-        </div>
-      </div>
-    </section>
+
 
     <section id="education">
       <div class="container">
@@ -103,84 +107,81 @@
             <h3>Edcuation</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-xs-12">
-            <img class="img-responsive center-block" id="education-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/programming.png" alt="programming icon" />
-            <h4 class="text-center">Codetrotters Academy</h4>
-            <h5 class="text-center">Web Development</h5>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Java Script</li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <img class="img-responsive center-block" id="education-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/diplomacy.png" alt="diplomacy icon" />
-            <h4 class="text-center">Center of Advance Studies of Puerto Rico &amp; The Caribbean</h4>
-            <h5 class="text-center">Diplomacy and International Affairs</h5>
-            <ul>
-              <li>City Para-diplomacy Certificate</li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <img class="img-responsive center-block" id="education-image" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/education.png" alt="education icon" />
-            <h4 class="text-center">University of Puerto Rico, Humacao Campus</h4>
-            <h5 class="text-center">Bachelor's Degree in International Business and Accounting</h5>
-            <ul>
-              <li>Principles of Finances &amp; International Finances</li>
-              <li>Principles of Marketing &amp; International Marketing</li>
-              <li>Microeconomics, Macroeconomics &amp; International Economics</li>
-            </ul>
+
+        <div id="education-container" class="container">
+          <div class="row">
+
+            <div id="code-bg" class="col-md-4 col-xs-12">
+              <h4 class="text-center">Codetrotters Academy</h4>
+              <h5 class="text-center">Web Development</h5>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+              </ul>
+            </div>
+            <div id="diplomacy-bg" class="col-md-4 col-xs-12">
+              <h4 class="text-center">Center of Advance Studies of Puerto Rico &amp; The Caribbean</h4>
+              <h5 class="text-center">Diplomacy and International Affairs</h5>
+              <ul>
+                <li>City Para-diplomacy Certificate</li>
+              </ul>
+            </div>
+            <div id="university-bg" class="col-md-4 col-xs-12">
+              <h4 class="text-center">University of Puerto Rico, Humacao Campus</h4>
+              <h5 class="text-center">Bachelor's Degree in International Business and Accounting</h5>
+              <ul>
+                <li>Principles of Finances &amp; International Finances</li>
+                <li>Principles of Marketing &amp; International Marketing</li>
+                <li>Microeconomics, Macroeconomics &amp; International Economics</li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>
     </section>
 
     <section id="work">
-      <div class="container">
+      <div id="work-container" class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
             <h3>Work</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3 col-md-12">
+        <div id="work-height" class="row">
+          <div class="col-md-3 col-md-12 bg-work">
             <img class="img-responsive center-block" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/aiesec.png" alt="work experience icon 1" />
             <h4 class="text-center">AIESEC in Puerto Rico</h4>
             <h5 class="text-center">Team Leader of Finance</h5>
             <ul class="text-center">
-              <li>Implementation of strategic plans to improve finances in the organization.</li>
-              <li>Organize and structurize the accounting processes.</li>
-              <li>Manage legal and financial documentation.</li>
+              <li>Manage and supervise budgets, bookkeeping and legal documentation for the entity at  a national level (120+ members island wide).</li>
             </ul>
           </div>
-          <div class="col-md-3 col-md-12">
+          <div class="col-md-3 col-md-12 bg-work">
             <img class="img-responsive center-block" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/youthspeak.png" alt="work experience icon 2" />
             <h4 class="text-center">YouthSpeak Forum</h4>
             <h5 class="text-center">Project Manager</h5>
             <ul class="text-center">
-              <li>Keep tracking of the Organizing Committee of the event.</li>
-              <li>Organized the agenda flow for the event bringing together the reality of Puerto Rico and the importance of the 17 Sustainable Development Goals of the United Nations.</li>
-              <li>Stablished alliances with companies and organizations in order to obtain speakers for the sessions and donations of the event.</li>
+              <li> Design the agenda flow and planed logistics for the event discussing the reality of Puerto Rico and the importance of the 17 Sustainable Development Goals of the United Nations.</li>
             </ul>
           </div>
-          <div class="col-md-3 col-md-12">
+          <div class="col-md-3 col-md-12 bg-work">
             <img class="img-responsive center-block" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/chamber of commerce.png" alt="work experience icon 3" />
             <h4 class="text-center">Chamber of Commerce</h4>
             <h5 class="text-center">Campaing Manager</h5>
             <ul class="text-center">
-              <li>Implementation of strategic plans to improve finances in the organization.</li>
-              <li>Organize and structurize the accounting processes.</li>
-              <li>Manage legal and financial documentation.</li>
+              <li>Manage successful campaign implementing strategic plans in order to obtain awareness.</li>
+              <li>Design and executed social campaign with digital art promotions for networking events.</li>
             </ul>
           </div>
-          <div class="col-md-3 col-md-12">
+          <div class="col-md-3 col-md-12 bg-work">
             <img class="img-responsive center-block" src="/Users/gabrielarivera/Desktop/Codetrotters/PortfolioProject/assets/images/commerce.png" alt="work experience icon 4" />
             <h4 class="text-center">Commerce and Export Company of Puerto Rico</h4>
             <h5 class="text-center">International Business Intern</h5>
             <ul class="text-center">
-              <li>Rearch on Market Study for Local Companies.</li>
-              <li>Assist on preparation for Expo Events in order to invite international companies and foster international business negotiation between them and local companies.</li>
+              <li>Organized exhibitions, conferences and projects for 25+ local and 10+ foreign companies to promote trade of goods and services between Puerto Rico and other countries.</li>
+
             </ul>
           </div>
         </div>
