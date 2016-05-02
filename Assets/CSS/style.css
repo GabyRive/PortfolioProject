@@ -57,6 +57,10 @@ header {
   height: 288px;
   background-attachment: fixed;
   border-radius: 87.6px;
+  transition: .4s;
+}
+#code-bg:hover {
+  transform: scale(1.1, 1.1);
 }
 #diplomacy-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/5GFBNEWEXA.jpg');
@@ -67,6 +71,10 @@ header {
   background-attachment: fixed;
   border-radius: 87.6px;
   margin: 0 5px;
+  transition: .4s;
+}
+#diplomacy-bg:hover{
+  transform: scale(1.1, 1.1);
 }
 #university-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/grad.jpg');
@@ -76,9 +84,13 @@ header {
   height: 288px;
   background-attachment: fixed;
   border-radius: 87.6px;
+  transition: 0.4s;
+}
+#university-bg:hover{
+  transform: scale(1.1, 1.1);
 }
 #work-height {
-  height: 335px;
+  height: 350px;
 }
 #work-height h4{
   padding-top: 20px;
@@ -267,7 +279,10 @@ section > h4 {
   background-color: rgba(255, 255, 255, 0.75);
     border-radius: 92px;
     height: 288px;
-    padding-top: 10px;;
+    padding-top: 10px;
+}
+.bg-work:hover{
+  background-color: rgba(255, 255, 255, 0.9);
 }
 main > section > h1 {
   font-family: lato;
